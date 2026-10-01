@@ -1,0 +1,14 @@
+# Pinned for scm-scout-agent (Person 4). See 04_Sohail_Scout_Agent_and_Web_Search.md A2.
+# Requires Python >=3.10,<3.14 (CrewAI docs). Use Python 3.11 — default Python 3.14 cannot install crewai 1.15.23.
+# NOTE team ownership: Person 6 owns requirements.txt in the final merge. This file is for LOCAL dev only — delete/omit it before handing off to Person 6.
+# crewai[google-genai] is the superset of crewai needed for LLM_MODEL=gemini/... (else ImportError)
+crewai[google-genai]==1.15.23
+langchain-community
+psycopg2-binary
+chromadb
+pypdf
+ddgs
+requests
+python-dotenv
+reportlab
+pytest
